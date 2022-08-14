@@ -1,0 +1,330 @@
+/*start main rules*/
+:root
+{
+    --main-color:hsl(47,79%,58%);
+    --sec-color:hsl(47,84%,28%);
+}
+body
+{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+.asterisk
+{
+    position: absolute;
+    top: 6px;
+    right: 9px;
+    font-size: 35px;
+    color: red;
+    
+}
+
+/*end main rules*/
+
+
+
+/*start login form*/
+
+.login
+{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4
+{
+    color: #888;
+}
+
+.login input
+{
+    margin-bottom: 10px;
+}
+.login .form-control
+{
+    background-color: #eaeaea;
+}
+
+
+
+
+/*end login form*/
+
+
+
+/* start botton edit */
+.botoon
+{
+    background-color: var(--main-color);
+    border: none;
+    
+}
+.botoon:hover
+{
+    background-color: var(--sec-color);
+}
+/* end botton edit */
+/* start bootstrap edits*/
+.navbar
+{
+    background-color: var(--main-color);
+    position: relative;
+}
+.navbar .collapse ul li a
+{
+    color: var(--sec-color);
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+.navbar-brand
+{
+    font-size: 1.5em;
+    color:var(--sec-color);
+}.navbar-brand:hover
+{
+    color:var(--sec-color) ;
+}
+
+
+.navbar .dropdown-menu 
+{
+    background-color: hsl(47,65%,84%);
+}
+.navbar .dropdown
+{
+    
+    position: absolute;
+    right: 180px;
+  
+}
+.navbar .dropdown-menu .dropdown-item
+{
+    color: var(--sec-color);
+}
+.dropdown-menu  ul li a
+{
+    padding: 15px;
+    
+    
+}
+
+
+
+/* end  bootstrap edits*/
+
+
+
+
+
+/* start dashboard page*/
+
+
+.home-stats .stat
+{
+    padding: 15px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+    
+}
+.home-stats .stat a 
+{
+    color: #fff;
+    text-decoration: none;
+        
+}
+.home-stats .st-members
+{
+    background-color: #3498db;
+}
+.home-stats .st-pendings
+{
+    background-color: #c0392b;
+}
+.home-stats .st-items
+{
+    background-color: #d35400;
+}
+.home-stats .st-comments
+{
+    background-color: #84e4ad;
+}
+
+.home-stats .stat span
+{
+    display: block;
+    font-size: 60px;
+}
+
+.latest
+{
+    margin-top: 30px;
+}
+
+.latest-users
+{
+    margin-bottom: 0px;
+}
+.latest-users li
+{   
+    padding: 5px 0px;
+    overflow: hidden;
+}
+.latest .comment-box
+{
+    margin: 5px 0 10px;
+}
+
+
+/* end dashbord page*/
+
+/*start comment box  page*/
+
+.comment-box 
+{
+    background-color: #f4f4f4;
+    
+    
+}
+.comment-box .info-box
+{
+    background-color: #eee;
+    padding: 10px 10px 25px;
+}
+.comment-box .user-info span
+{
+    margin-left: 10px;
+}
+.comment-box .data
+{
+    font-size: 15px;
+}
+.comment-box .description
+{
+    margin-top: -25px;
+}
+.comment-box .description .comment-text
+{
+    
+    font-size: 16px;
+    margin: 30px  0  0  90px ;
+    width: 45%; 
+   
+}
+.comment-box .description .comment-text:nth-child(1)
+{
+    margin-bottom: 5px;
+    
+   
+}
+.comment-box .shadow-none
+{
+    box-shadow: none;
+}
+.comment-box .name
+{
+    color: #007bff;
+}
+.comment-box .cursor:hover
+{
+    color: blue;
+}
+.comment-box .cursor
+{
+    cursor: pointer;
+}
+.comment-box .description .textarea
+{
+    resize: none;
+    margin-left: 100px;
+    
+    
+}
+
+/*end comment box page*/    
+
+
+/* start memeber page*/
+h1{
+    font-size: 55px;
+    margin:18px 0  40px 0;
+    font-weight: bold;
+    color: var(--main-color);
+
+}
+.form-group
+{
+    margin-bottom: 13px;
+}
+.input-content
+{
+    position: relative;
+}
+
+.show-pass
+{
+    position: absolute;
+    top: 10px;
+    right: -40px;
+    font-size: 30px;
+}
+.main-table
+{
+    -webkit-box-shadow: 0 5px 20px #ccc;
+    -moz-box-shadow: 0 5px 20px #ccc;
+    box-shadow: 0 5px 20px #ccc;
+}
+.main-table td
+{
+    background-color:#FFF;
+    vertical-align: middle !important;
+}
+.main-table tr:first-child td
+{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.main-table .btn
+{
+    padding: 3px 10px;
+}
+.input-content
+{
+    position: relative;
+}
+/* end memeber page*/
+
+
+
+
+
+/* start category page*/
+.categories .ordering
+{
+    width: 35%;
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
+.categories .ordering a 
+{
+    color: #888;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px ;
+    padding: 3px;
+
+}
+.categories .ordering .active
+{
+    
+    color: var(--sec-color);
+    border-radius: 7px;
+    
+}
+/* end category page*/
+
+
+
+
+
+

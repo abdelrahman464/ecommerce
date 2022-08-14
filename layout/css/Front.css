@@ -1,0 +1,390 @@
+/*start main rules*/
+:root
+{
+    --main-color:hsl(47,79%,58%);
+    --sec-color:hsl(47,84%,28%);
+}
+body
+{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+.asterisk
+{
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    font-size: 25px;
+    color: red;
+}
+.main-fromo .asterisk
+{
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    font-size: 25px;
+    color: red;
+}
+.show-pass
+{
+    position: absolute;
+    top: 10px;
+    right: -27px;
+    font-size: 20px;
+
+}
+h1{
+    font-size: 55px;
+    margin:18px 0  40px 0;
+    font-weight: bold;
+    color: var(--main-color);
+
+}
+
+/*end main rules*/
+
+
+
+
+
+/* start botton edit */
+.botoon
+{
+    background-color: var(--main-color);
+    border: none;
+    
+}
+.botoon:hover
+{
+    background-color: var(--sec-color);
+}
+/* end botton edit */
+
+
+
+
+
+/* start bootstrap edits*/
+.navbar
+{
+    background-color: var(--main-color);
+    position: relative;
+}
+.navbar .collapse ul li a
+{
+    color: var(--sec-color);
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+.navbar-brand
+{
+    font-size: 1.5em;
+    color:var(--sec-color);
+}.navbar-brand:hover
+{
+    color:var(--sec-color) ;
+}
+
+
+.navbar .dropdown-menu 
+{
+    background-color: hsl(47,65%,84%);
+}
+.navbar .dropdown
+{
+    
+    position: absolute;
+    right: 180px;
+  
+}
+.navbar .dropdown-menu .dropdown-item
+{
+    color: var(--sec-color);
+}
+.dropdown-menu  ul li a
+{
+    padding: 15px;
+    
+    
+}
+.input-content
+{
+    position: relative;
+}
+
+
+/* end  bootstrap edits*/
+
+
+
+
+
+/* start bootstrap edits*/
+
+
+
+
+
+
+
+
+
+/*start upper bar page*/
+.upper-bar
+{
+    padding: 10px;
+    background-color: #eee;
+    position: relative;
+}
+
+.upper-bar .dropdown a
+{
+    color: var(--sec-color);
+} 
+.upper-bar .dropdown-menu 
+{
+    background-color: hsl(47,65%,84%);
+}
+
+.upper-bar .dropdown-menu .dropdown-item
+{
+    color: var(--sec-color);
+    padding:5px 10px;
+}
+.upper-bar .wating-aprvomsg
+{
+    position: absolute;
+    right: 30px;
+    top: -6px;
+}
+
+/*end upper bar page*/
+
+
+/*start login page*/
+
+.login-page .selectted
+{
+    color: var(--sec-color);
+}
+.login-page h1 span
+{
+    cursor: pointer;
+}
+.login-page .signup
+{
+    display: none;
+}
+/*end login page*/
+
+
+
+/*start profile page*/
+.information
+{
+    position: relative;
+}
+.information .editbtn
+{
+    position: absolute;
+    right: 16px;
+    top: 160px;
+}
+.information .creattbtn
+{
+    position: absolute;
+    right: 13px;
+    top: 60px;
+}
+.information ul li
+{
+    padding: 10px;
+    border: none;
+}
+.information ul li:nth-child(odd)
+{
+    background-color: #eee;
+}
+.information ul li span
+{
+    display: inline-block;
+    margin-right: 15px;
+    width: 100px;
+}
+.notapproved
+{
+    position: absolute;
+    margin: 0;
+    background-color: #b85a5a;
+    top: 6px;
+    right: 0;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+
+/*end profile page*/
+
+
+
+
+
+/*start newad page*/
+form >div
+{
+    margin-bottom: 15px;
+    padding-left: 20px;
+    
+}
+form >div:nth-child(1)
+{
+    margin-top: 15px;
+}
+
+
+
+/*end newad page*/
+
+
+
+
+
+
+
+/*start categories page*/
+.itemCard h5 a
+{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.itemCard .card-text
+{
+    color: var(--sec-color);
+}
+.itemCard .Price-tag
+{
+    position: absolute;
+    background-color: var(--main-color);
+    top: 6px;
+    left: 0;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: var(--sec-color);
+}
+.itemCard .itemDate{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    font-size: 16px;
+    padding:8px 8px 0 8px ;
+    color: #aaa;
+    font-weight: bold;
+    
+
+}
+
+
+/*start categories page*/
+
+.itemshow
+{
+    background-color: #f4f4f4;
+   
+}
+
+.itemshow ul li
+{
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: none;
+    
+}
+.itemshow ul li:nth-child(odd)
+{
+    background-color: #eee;
+}
+.itemshow ul li span
+{
+    display: inline-block;
+    margin-right: 15px;
+    width: 100px;
+    font-size: 18px;
+}
+/*start items page*/
+
+
+
+/*end items page*/
+
+
+
+
+/*start comment box  page*/
+
+.comment-box 
+{
+    background-color: #f4f4f4;
+    
+    
+}
+.comment-box .info-box
+{
+    background-color: #eee;
+    padding: 10px 10px 25px;
+}
+.comment-box .user-info span
+{
+    margin-left: 10px;
+}
+.comment-box .data
+{
+    font-size: 15px;
+}
+.comment-box .description
+{
+    margin-top: -25px;
+}
+.comment-box .description .comment-text
+{
+   
+    font-size: 16px;
+    margin: 0  0  0  90px ;
+    width: 45%; 
+   
+}
+.comment-box .description .comment-text:nth-child(1)
+{
+    margin-bottom: 5px;
+    
+   
+}
+.comment-box .shadow-none
+{
+    box-shadow: none;
+}
+.comment-box .name
+{
+    color: #007bff;
+}
+.comment-box .cursor:hover
+{
+    color: blue;
+}
+.comment-box .cursor
+{
+    cursor: pointer;
+}
+.comment-box .description .textarea
+{
+    resize: none;
+    margin-left: 100px;
+    
+    
+}
+
+/*end comment box page*/    
+
+
